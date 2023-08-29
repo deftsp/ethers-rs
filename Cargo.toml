@@ -104,7 +104,8 @@ spki = { version = "0.7.2", default-features = false }
 
 # serde
 serde = "1.0"
-serde_json = "1.0"
+# serde_json = "1.0"
+serde_json = { git = "https://github.com/deftsp/json.git", rev = "7b902d8",  package = "serde_json_fork"}
 
 # macros
 proc-macro2 = "1.0"
